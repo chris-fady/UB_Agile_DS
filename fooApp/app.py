@@ -3,7 +3,7 @@ from flask import Flask, make_response,request
 from flask_pymongo import PyMongo
 from flask import abort, jsonify, redirect, render_template
 from flask import request, url_for
-from forms import ProductForm
+from .forms import ProductForm
 from bson.objectid import ObjectId
 from flask import render_template
 from flask_login import login_required
