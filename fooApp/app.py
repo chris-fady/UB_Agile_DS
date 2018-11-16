@@ -13,8 +13,9 @@ from flask_login import login_required
 from .models import User
 
 app = Flask(__name__)
-app.config['MONGO_DBNAME'] = 'agiledatascience'
-app.config['MONGO_URI'] = 'mongodb://db:27017/agiledatascience'
+
+app.config['MONGO_DBNAME'] = 'foodb'
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/foodb'
 
 app.config['SECRET_KEY'] = 'enydM2ANhdcoKwdVa0jWvEsbPFuQpMjf' # Create your own.
 app.config['SESSION_PROTECTION'] = 'strong'
