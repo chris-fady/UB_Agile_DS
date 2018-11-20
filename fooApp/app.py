@@ -15,7 +15,7 @@ from .models import User
 app = Flask(__name__)
 
 app.config['MONGO_DBNAME'] = 'foodb'
-app.config['MONGO_URI'] = 'mongodb://db:27017/foodb'
+app.config['MONGO_URI'] = 'mongodb://christopher.fady:King6433!@ds215633.mlab.com:15633/agile_ds1'
 
 app.config['SECRET_KEY'] = 'enydM2ANhdcoKwdVa0jWvEsbPFuQpMjf' # Create your own.
 app.config['SESSION_PROTECTION'] = 'strong'
